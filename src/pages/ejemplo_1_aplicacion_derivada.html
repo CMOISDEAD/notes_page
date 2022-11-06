@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ejemplo 1: Aplicación de la derivada</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="../styles.css" rel="stylesheet" />
+  <!-- katex -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css"
+    integrity="sha384-Juol1FqnotbkyZUT5Z7gUPjQ9gzlwCENvUZTpQBAPxtusdwFLRy382PSDx5UUJ4/" crossorigin="anonymous" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.js"
+    integrity="sha384-97gW6UIJxnlKemYavrqDHSX3SiygeOwIZhwyOKRfSaf0JWKRVj9hLASHgFTzT+0O"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head>
+
+<body>
+  <div style="margin-left: 2vw">
+    <h1>Ejemplo 1: Aplicación de la derivada</h1>
+  </div>
+  <hr />
+  <div style="margin-left: 2vw">
+    <p><strong>De:</strong> Camilo Esteban Davila</p>
+    <p><strong>Asunto:</strong> Ejemplo 1: Aplicación de la derivada</p>
+    <p><strong>Fecha:</strong> Dom, 06 Nov 2022 3:42:34</p>
+  </div>
+  <hr />
+  <div class="article flex">
+    <div class="left" style="width: 100vw">
+      <h3>Ejemplo 1: Aplicación de la derivada</h3>
+      <h4>Analizar la gráfica de $f(x) = \frac{2(x^{2}-9)}{x^{2}-4}$</h4>
+      <p>
+        Primera derivada:<br />
+        $f'(x) = \frac{20x}{(x^{2}-4)^{2}}$
+      </p>
+      <p>
+        Segunda derivada:<br />
+        $f''(x) = \frac{-20x(3x^{2}+4)}{(x^{2}-4)^{3}}$
+      </p>
+      <p></p>
+      <p>Intersecciones con el eje $x$: $(-3, 0), (3, 0)$</p>
+      <p>Intersección con el eje $y$: $(0, \frac{9}{2})$</p>
+      <p>Asintotas verticales: $x=-2, x=2$</p>
+      <p>Asintota horizontal: $y=2$</p>
+      <p>Numero critico: $x = 0$</p>
+      <p>Posibles puntos de inflexión: Ninguno</p>
+    </div>
+    <div class="right">
+      <div class="image">
+        <img src="../assets/ejemplo1.png" alt="f(x)" width="100%" />
+      </div>
+    </div>
+  </div>
+  <footer class="container text-center">
+    <a href="/">Página Principal</a>
+  </footer>
+  <!-- katex -->
+  <script src="../app.js"></script>
+</body>
+
+</html>
